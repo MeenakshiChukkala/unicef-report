@@ -1,0 +1,560 @@
+---
+title: "Born Unequal: Poverty, Education and the Children the World is Leaving Behind"
+subtitle: "Where you are born determines whether you will go to school."
+author: "Meenakshi Chukkala"
+date: today
+format:
+  html:
+    embed-resources: true
+    code-fold: true
+    theme: cosmo
+    toc: true
+    toc-title: "Contents"
+    toc-depth: 3
+    number-sections: false
+    fig-width: 11
+    fig-height: 6
+execute:
+  warning: false
+  message: false
+  python:  "C:/Users/cmeen/AppData/Local/Python/pythoncore-3.14-64/python.exe"
+---
+
+## The World is Not an Equal Place to Be Born
+
+> *"Where you are born determines whether you will go to school."*
+
+The world's richest nation has a GDP per capita **850 times higher** than the poorest. That number is almost too large to feel real. But the consequence of it is felt every single day by millions of children — in empty stomachs, in empty classrooms, in futures quietly closed off before they even begin.
+
+This report tells the story of two crises that are deeply intertwined:
+
+- **Child deprivation** — the percentage of children suffering at least **four simultaneous deprivations** (hunger, disease, lack of shelter, no access to water, and more)
+- **Early childhood education (ECE)** — the percentage of children aged **36–59 months** attending a preschool programme
+
+The data reveals a cruel pattern: **the children who need education the most are the least likely to get it.**
+
+---
+
+## Setup & Data Loading
+
+```{python}
+#| label: setup
+
+import polars as pl
+import geopandas as gpd
+import plotnine as p9
+from plotnine import *
+import numpy as np
+import pandas as pd
+import warnings
+warnings.filterwarnings("ignore")
+
+# Load all three datasets
+indicator1 = pl.read_csv("unicef_indicator_1.csv")
+indicator2 = pl.read_csv("unicef_indicator_2.csv")
+metadata   = pl.read_csv("unicef_metadata.csv")
+
+print(f"Indicator 1 (Deprivation): {indicator1.shape[0]} rows")
+print(f"Indicator 2 (ECE):         {indicator2.shape[0]} rows")
+print(f"Metadata:                  {metadata.shape[0]} rows")
+
+# Summary stats for deprivation (Total sex)
+dep_total = indicator1.filter(pl.col("sex") == "Total")
+print(f"\nDeprivation — min:  {dep_total['obs_value'].min():.2f}%")
+print(f"Deprivation — max:  {dep_total['obs_value'].max():.2f}%")
+print(f"Deprivation — mean: {dep_total['obs_value'].mean():.2f}%")
+```
+
+---
+
+## The Wealth Divide: A World Map of Child Deprivation {#sec-map}
+
+The map below shows average child deprivation rates by country. **Dark red countries are those with the highest measured child deprivation rates in this dataset** — where poverty is not just a number but a daily reality of hunger, disease, and missed opportunities.
+
+Sub-Saharan Africa dominates the darkest shades. **Ethiopia stands at 17.4%** — the highest child deprivation rate in this dataset. Every country clustered in dark red is a Sub-Saharan African nation, with one exception: **Cambodia** — the only South/Southeast Asian country in the danger zone. The lighter-coloured countries tend to show lower measured deprivation in this dataset, while blue countries represent missing data.
+
+```{python}
+#| label: fig-worldmap
+#| fig-cap: "Average child deprivation rate by country. Darker red indicates higher child deprivation; blue indicates missing data."
+#| fig-width: 13
+#| fig-height: 7
+
+# Average deprivation per country, Total sex only
+dep_avg = (
+    indicator1
+    .filter(pl.col("sex") == "Total")
+    .group_by(["alpha_3_code", "country"])
+    .agg(pl.col("obs_value").mean().alias("avg_deprivation"))
+)
+
+# Load world shapefile
+world = gpd.read_file(
+    "https://naturalearth.s3.amazonaws.com/110m_cultural/ne_110m_admin_0_countries.zip"
+)
+
+# Merge data
+dep_pd = dep_avg.to_pandas()
+world_merged = world.merge(dep_pd, left_on="ADM0_A3", right_on="alpha_3_code", how="left")
+
+# Plotnine world map
+map_plot = (
+    ggplot(world_merged)
+    + geom_map(
+        aes(fill="avg_deprivation"),
+        color="white",
+        size=0.2
+    )
+    + scale_fill_gradient(
+        low="#fee8c8",
+        high="#b30000",
+        na_value="#c6d6e5",
+        name="% Children\nDeprived"
+    )
+    + labs(
+        title="The World Is Not an Equal Place to Be Born",
+        subtitle="Average % of children suffering at least 4 simultaneous deprivations"
+    )
+    + theme_void()
+    + theme(
+        figure_size=(12, 6.5),
+        plot_background=element_rect(fill="#fdfaf5", color="#fdfaf5"),
+        panel_background=element_rect(fill="#fdfaf5", color="#fdfaf5"),
+        legend_background=element_rect(fill="#fdfaf5", color="#fdfaf5"),
+        legend_position="bottom",
+        plot_title=element_text(size=18, weight="bold"),
+        plot_subtitle=element_text(size=11, color="#555555")
+    )
+)
+
+map_plot.draw()
+```
+
+## The Double Penalty: Deprivation and Missing Education {#sec-scatter}
+
+This scatterplot reveals the cruellest finding in the data. Look at the top-left corner — countries with the **highest deprivation rates** also have the **lowest ECE attendance**. These children are failed twice: first through poverty, then through lack of education.
+
+The **correlation between deprivation and ECE attendance is -0.49** — a strong negative relationship. As deprivation rises, access to early education falls.
+
+Consider these cases specifically:
+
+- 🔴 **Chad**: ~14% deprivation, ~1% ECE attendance
+- 🔴 **Niger**: ~13% deprivation, ~2.5% ECE attendance
+- 🔴 **Mozambique**: ~11% deprivation, ~2.2% ECE attendance
+- 🔴 **Madagascar**: ~17% deprivation, ~15% ECE attendance
+
+```{python}
+#| label: fig-scatter
+#| fig-cap: "Countries with the highest deprivation rates have the lowest preschool attendance — the double penalty. Correlation = -0.49."
+#| fig-width: 11
+#| fig-height: 7
+
+# ECE: latest value per country, Total sex
+ece_latest = (
+    indicator2
+    .filter(pl.col("sex") == "Total")
+    .sort("time_period", descending=True)
+    .group_by(["alpha_3_code", "country"])
+    .agg(pl.col("obs_value").first().alias("ece_rate"))
+)
+
+# Deprivation: average per country, Total sex
+dep_avg2 = (
+    indicator1
+    .filter(pl.col("sex") == "Total")
+    .group_by(["alpha_3_code", "country"])
+    .agg(pl.col("obs_value").mean().alias("avg_deprivation"))
+)
+
+# Join the two indicators
+scatter_df = dep_avg2.join(
+    ece_latest.drop("country"), on="alpha_3_code", how="inner"
+).to_pandas()
+
+# Print correlation
+corr = scatter_df[["avg_deprivation", "ece_rate"]].corr().iloc[0, 1]
+print(f"Correlation between deprivation and ECE attendance: {corr:.2f}")
+
+scatter_plot = (
+    ggplot(scatter_df, aes(x="ece_rate", y="avg_deprivation"))
+    + geom_point(color="#c0392b", alpha=0.65, size=3)
+    + geom_smooth(method="lm", color="#2c3e50", se=True, linetype="dashed")
+    + annotate("text", x=70, y=13, label="Danger Zone",
+               color="#c0392b", size=10, fontweight="bold", alpha=0.5)
+    + labs(
+        title="The Children Who Need School the Most Are the Least Likely to Go",
+        subtitle="Child deprivation rate vs. early childhood education (ECE) attendance rate",
+        x="ECE Attendance Rate (% of children aged 36–59 months)",
+        y="Child Deprivation Rate (% with 4+ deprivations)",
+        caption="Source: UNICEF Indicators 1 & 2  |  Correlation = -0.49"
+    )
+    + theme_minimal()
+    + theme(
+        plot_title=element_text(size=14, weight="bold"),
+        plot_subtitle=element_text(size=10, color="#555555"),
+        panel_grid_minor=element_blank()
+    )
+)
+
+scatter_plot.draw()
+```
+
+---
+
+## Child Deprivation is Concentrated in Sub-Saharan Africa {#sec-bar}
+
+The bar chart below shows the **top 15 countries** by average child deprivation rate. Look at the list — almost every single country is in Sub-Saharan Africa.
+
+**Ethiopia leads at 17.4%.** The pattern is not random. It is the product of decades of underinvestment, conflict, and structural inequality. These are not unlucky countries — they are countries that have been systematically left behind.
+
+```{python}
+#| label: fig-barchart
+#| fig-cap: "Top 15 countries by average child deprivation rate. Sub-Saharan Africa dominates the list."
+#| fig-width: 11
+#| fig-height: 7
+
+dep_top15 = (
+    indicator1
+    .filter(pl.col("sex") == "Total")
+    .group_by(["country", "alpha_3_code"])
+    .agg(pl.col("obs_value").mean().alias("avg_deprivation"))
+    .sort("avg_deprivation", descending=True)
+    .head(15)
+    .to_pandas()
+    .sort_values("avg_deprivation", ascending=True)
+)
+
+bar_plot = (
+    ggplot(dep_top15, aes(x="country", y="avg_deprivation", fill="avg_deprivation"))
+    + geom_col(show_legend=False)
+    + coord_flip()
+    + scale_fill_gradient(low="#f4a261", high="#7f0000")
+    + scale_x_discrete(limits=dep_top15["country"].tolist())
+    + geom_text(
+        aes(label="avg_deprivation"),
+        format_string="{:.1f}%",
+        ha="left",
+        size=8,
+        nudge_y=0.2
+    )
+    + labs(
+        title="Child Deprivation Is Concentrated in Sub-Saharan Africa",
+        subtitle="Top 15 countries by average % of children suffering at least 4 simultaneous deprivations",
+        x="",
+        y="Average Deprivation Rate (%)",
+        caption="Source: UNICEF Indicator 1"
+    )
+    + theme_minimal()
+    + theme(
+        plot_title=element_text(size=14, weight="bold"),
+        plot_subtitle=element_text(size=10, color="#555555"),
+        axis_text_y=element_text(size=10),
+        panel_grid_minor=element_blank()
+    )
+)
+
+bar_plot.draw()
+```
+
+---
+## ECE Attendance Snapshots in the Most Deprived Countries {#sec-heatmap}
+
+The bar chart identified the countries with the highest levels of deprivation. This figure provides a closer look at **early childhood education (ECE) attendance** in those countries.
+
+Because data availability varies across countries and years, this figure presents **snapshots rather than a continuous time trend**. Each tile represents an observed year-country combination, with darker colours indicating higher preschool participation.
+
+Even with limited observations, a clear pattern emerges: in many of the most deprived countries, access to early education remains **consistently low**. This reinforces the report’s central finding that deprivation is not only severe, but also persistent.
+
+```{python}
+#| label: fig-heatmap
+#| fig-cap: "ECE attendance snapshots in the 10 most deprived countries."
+#| fig-width: 11
+#| fig-height: 7
+
+# Top 10 most deprived countries
+top10_dep = (
+    indicator1
+    .filter(pl.col("sex") == "Total")
+    .group_by(["alpha_3_code", "country"])
+    .agg(pl.col("obs_value").mean().alias("avg_deprivation"))
+    .sort("avg_deprivation", descending=True)
+    .head(10)
+)
+
+# ECE data for those countries
+heatmap_df = (
+    indicator2
+    .filter(pl.col("sex") == "Total")
+    .select(["alpha_3_code", "country", "time_period", "obs_value"])
+    .join(
+        top10_dep.select(["alpha_3_code", "avg_deprivation"]),
+        on="alpha_3_code",
+        how="inner"
+    )
+    .rename({"obs_value": "ece_rate"})
+    .to_pandas()
+)
+
+# Keep country order by deprivation rank
+country_order = (
+    top10_dep
+    .select("country")
+    .to_series()
+    .to_list()
+)
+
+heatmap_df["country"] = pd.Categorical(
+    heatmap_df["country"],
+    categories=country_order,
+    ordered=True
+)
+
+# Make year a string so tiles are treated as categories
+heatmap_df["time_period"] = heatmap_df["time_period"].astype(str)
+
+heatmap_plot = (
+    ggplot(heatmap_df, aes(x="time_period", y="country", fill="ece_rate"))
+    + geom_tile(color="white", size=0.4)
+    + scale_fill_gradient(low="#fef0d9", high="#b30000")
+    + labs(
+        title="ECE Attendance Snapshots in the Most Deprived Countries",
+        subtitle="Each tile represents an available year-country observation",
+        x="Year",
+        y="Country",
+        fill="ECE Attendance (%)",
+        caption="Source: UNICEF Indicator 2 | Countries selected from the 10 highest deprivation rates"
+    )
+    + theme_minimal()
+    + theme(
+        plot_title=element_text(size=15, weight="bold"),
+        plot_subtitle=element_text(size=10, color="#555555"),
+        axis_text_x=element_text(rotation=45, ha="right"),
+        axis_text_y=element_text(size=9),
+        panel_grid=element_blank()
+    )
+)
+
+heatmap_plot.draw()
+```
+---
+
+## The Double Burden: Deprivation Rank vs Preschool Access Rank {#sec-dumbbell}
+
+The scatterplot showed a broad negative relationship between deprivation and early education. This figure makes that relationship more concrete by comparing **country rankings**.
+
+Each line connects a country’s rank in child deprivation with its rank in ECE attendance among the same group of most deprived countries. Countries with a large gap between the two positions are facing a double burden: they rank among the worst for deprivation, and they also perform poorly in preschool access.
+
+This chart matters because it shifts the focus from averages to **relative disadvantage**. It shows that the same countries appearing at the top of the deprivation list often also cluster near the bottom for educational access. In other words, children are not only living with hardship — they are also being denied one of the main tools that could help break that cycle.
+
+```{python}
+#| label: fig-dumbbell
+#| fig-cap: "Countries with the highest deprivation often also rank poorly in preschool access."
+#| fig-width: 11
+#| fig-height: 7
+
+# Latest ECE per country
+ece_latest_rank = (
+    indicator2
+    .filter(pl.col("sex") == "Total")
+    .sort(["alpha_3_code", "time_period"], descending=[False, True])
+    .group_by(["alpha_3_code", "country"])
+    .agg(pl.col("obs_value").first().alias("ece_rate"))
+)
+
+# Top 10 deprived countries
+top10_rank = (
+    indicator1
+    .filter(pl.col("sex") == "Total")
+    .group_by(["alpha_3_code", "country"])
+    .agg(pl.col("obs_value").mean().alias("avg_deprivation"))
+    .sort("avg_deprivation", descending=True)
+    .head(10)
+)
+
+# Join and rank
+rank_df = (
+    top10_rank
+    .join(ece_latest_rank.select(["alpha_3_code", "ece_rate"]), on="alpha_3_code", how="left")
+    .to_pandas()
+)
+
+rank_df = rank_df.dropna(subset=["ece_rate"]).copy()
+
+rank_df["deprivation_rank"] = (
+    rank_df["avg_deprivation"]
+    .rank(method="first", ascending=False)
+    .astype(int)
+)
+
+rank_df["ece_rank"] = (
+    rank_df["ece_rate"]
+    .rank(method="first", ascending=False)
+    .astype(int)
+)
+
+# Sort by deprivation rank for display
+rank_df = rank_df.sort_values("deprivation_rank", ascending=True).reset_index(drop=True)
+rank_df["country"] = pd.Categorical(rank_df["country"], categories=rank_df["country"], ordered=True)
+
+# Long form for plotting
+left_df = rank_df[["country", "deprivation_rank"]].copy()
+left_df["type"] = "Deprivation Rank"
+left_df["rank"] = left_df["deprivation_rank"]
+
+right_df = rank_df[["country", "ece_rank"]].copy()
+right_df["type"] = "ECE Rank"
+right_df["rank"] = right_df["ece_rank"]
+
+points_df = pd.concat([
+    left_df[["country", "type", "rank"]],
+    right_df[["country", "type", "rank"]]
+], ignore_index=True)
+
+segments_df = rank_df.copy()
+
+dumbbell_plot = (
+    ggplot()
+    + geom_segment(
+        data=segments_df,
+        mapping=aes(
+            x="deprivation_rank",
+            xend="ece_rank",
+            y="country",
+            yend="country"
+        ),
+        color="#bdbdbd",
+        size=1.2
+    )
+    + geom_point(
+        data=points_df[points_df["type"] == "Deprivation Rank"],
+        mapping=aes(x="rank", y="country"),
+        color="#cb181d",
+        size=3
+    )
+    + geom_point(
+        data=points_df[points_df["type"] == "ECE Rank"],
+        mapping=aes(x="rank", y="country"),
+        color="#2c7fb8",
+        size=3
+    )
+    + labs(
+        title="The Double Burden: Deprivation Rank vs Preschool Access Rank",
+        subtitle="Red = deprivation rank, Blue = ECE attendance rank (among the 10 most deprived countries)",
+        x="Rank Position",
+        y="Country",
+        caption="Source: UNICEF Indicators 1 & 2"
+    )
+    + theme_minimal()
+    + theme(
+        plot_title=element_text(size=15, weight="bold"),
+        plot_subtitle=element_text(size=10, color="#555555"),
+        panel_grid_minor=element_blank()
+    )
+)
+
+dumbbell_plot.draw()
+```
+
+## The Gender Gap in Early Education {#sec-timeseries}
+
+Gender inequality in education does not follow a single pattern. In some countries, **girls are more likely to attend preschool than boys**. In others, boys lead by a significant margin.
+
+In **Uzbekistan**, boys are nearly **10.5 percentage points** more likely to attend ECE than girls. This is not a minor gap — it represents a generation of girls whose education is considered less important than their brothers'.
+
+The time-series below tracks ECE attendance rates over time by sex, for the countries where the gender gap is most pronounced.
+
+```{python}
+#| label: fig-timeseries
+#| fig-cap: "ECE attendance rates over time by sex, for countries with the largest gender gaps. Gender does not determine education access equally."
+#| fig-width: 13
+#| fig-height: 7
+
+# Compute gender gap per country
+gender_gap = (
+    indicator2
+    .filter(pl.col("sex").is_in(["Female", "Male"]))
+    .group_by(["country", "sex"])
+    .agg(pl.col("obs_value").mean().alias("avg_ece"))
+    .pivot(on="sex", index="country", values="avg_ece")
+    .with_columns(
+        (pl.col("Male") - pl.col("Female")).abs().alias("gap")
+    )
+    .sort("gap", descending=True)
+    .head(8)
+    .select("country")
+    .to_series()
+    .to_list()
+)
+
+# Time series for those countries, both sexes
+ts_df = (
+    indicator2
+    .filter(
+        (pl.col("sex").is_in(["Female", "Male"])) &
+        (pl.col("country").is_in(gender_gap))
+    )
+    .group_by(["country", "sex", "time_period"])
+    .agg(pl.col("obs_value").mean().alias("ece_rate"))
+    .to_pandas()
+)
+
+ts_plot = (
+    ggplot(ts_df, aes(x="time_period", y="ece_rate", color="sex", group="sex"))
+    + geom_line(size=1.1)
+    + geom_point(size=2.2)
+    + facet_wrap("country", ncol=4)
+    + scale_color_manual(values={"Female": "#e76f51", "Male": "#2a9d8f"})
+    + labs(
+        title="Gender Gap in Early Education: Female vs Male ECE Attendance",
+        subtitle="Gender does not determine education access equally — in some nations girls lead, in others they are left behind.",
+        x="Year",
+        y="ECE Attendance Rate (%)",
+        color="Sex",
+        caption="Source: UNICEF Indicator 2"
+    )
+    + theme_minimal()
+    + theme(
+        plot_title=element_text(size=13, weight="bold"),
+        plot_subtitle=element_text(size=9, color="#555555"),
+        strip_text=element_text(size=8, weight="bold"),
+        panel_grid_minor=element_blank(),
+        legend_position="top"
+    )
+)
+
+ts_plot.draw()
+```
+
+---
+
+## Key Figures at a Glance
+
+| Statistic | Value |
+|---|---|
+| Average ECE attendance in 10 most deprived countries | ~6% |
+| Correlation between deprivation and ECE attendance | **-0.49** |
+| Highest child deprivation rate — Ethiopia | **17.4%** |
+| Region most affected by high deprivation | **Sub-Saharan Africa** |
+| Gender gap in ECE — boys over girls in Uzbekistan | **~10.5 pp** |
+
+---
+
+## Conclusion: Real Children, Real Choices
+
+> *Behind every data point in this report is a child. A child in Chad who will never attend preschool. A child in Ethiopia facing deprivation on four fronts simultaneously. A child in Uzbekistan whose sister is far less likely to be in school than her brother.*
+
+> *The numbers are stark — but they represent real lives, real futures, and a real choice about what kind of world we want to build.*
+
+The evidence from this data is clear and consistent:
+
+- Child deprivation is **geographically concentrated**, with Sub-Saharan Africa dominating the highest-risk countries  
+- The countries with the highest deprivation rates are often the same countries with the **lowest access to early childhood education**  
+- The **double penalty** is real: children facing poverty are also the least likely to receive the education that could help break that cycle  
+- Gender inequality in education exists, but it varies widely — in some countries girls are disadvantaged, while in others boys have lower participation rates 
+
+Across all figures, one pattern stands out: inequality is not accidental. It is structured, persistent, and measurable.
+
+Every year that passes without meaningful investment is another cohort of children denied the fair start they deserve. The data has spoken. The question is whether the world will listen.
+
+---
+
+*Report produced using UNICEF open data. All visualisations created with plotnine. Data transformations performed with polars.*

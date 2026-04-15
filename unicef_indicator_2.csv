@@ -1,0 +1,356 @@
+country,alpha_2_code,alpha_3_code,numeric_code,indicator,time_period,obs_value,sex,unit_multiplier,unit_of_measure,observation_status,observation_confidentaility,time_period_activity_related_to_when_the_data_are_collected,current_age
+Afghanistan,AF,AFG,4,Percentage of children aged 36-59 months attending an early childhood education programme,2023,0.9,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Afghanistan,AF,AFG,4,Percentage of children aged 36-59 months attending an early childhood education programme,2023,1,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Afghanistan,AF,AFG,4,Percentage of children aged 36-59 months attending an early childhood education programme,2023,0.9,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Albania,AL,ALB,8,Percentage of children aged 36-59 months attending an early childhood education programme,2018,72.5,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Albania,AL,ALB,8,Percentage of children aged 36-59 months attending an early childhood education programme,2018,72.5,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Albania,AL,ALB,8,Percentage of children aged 36-59 months attending an early childhood education programme,2018,72.5,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Algeria,DZ,DZA,12,Percentage of children aged 36-59 months attending an early childhood education programme,2019,15.3,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Algeria,DZ,DZA,12,Percentage of children aged 36-59 months attending an early childhood education programme,2019,13.5,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Algeria,DZ,DZA,12,Percentage of children aged 36-59 months attending an early childhood education programme,2019,14.3,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Angola,AO,AGO,24,Percentage of children aged 36-59 months attending an early childhood education programme,2019,12.2,Female,,%,Reported,Free,End of fieldwork,3 to 5 years old
+Angola,AO,AGO,24,Percentage of children aged 36-59 months attending an early childhood education programme,2019,12.6,Male,,%,Reported,Free,End of fieldwork,3 to 5 years old
+Angola,AO,AGO,24,Percentage of children aged 36-59 months attending an early childhood education programme,2019,12.4,Total,,%,Reported,Free,End of fieldwork,3 to 5 years old
+Argentina,AR,ARG,32,Percentage of children aged 36-59 months attending an early childhood education programme,2020,65.9,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Argentina,AR,ARG,32,Percentage of children aged 36-59 months attending an early childhood education programme,2020,62.9,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Argentina,AR,ARG,32,Percentage of children aged 36-59 months attending an early childhood education programme,2020,64.4,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Azerbaijan,AZ,AZE,31,Percentage of children aged 36-59 months attending an early childhood education programme,2023,25.2,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Azerbaijan,AZ,AZE,31,Percentage of children aged 36-59 months attending an early childhood education programme,2023,25.9,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Azerbaijan,AZ,AZE,31,Percentage of children aged 36-59 months attending an early childhood education programme,2023,25.6,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Bangladesh,BD,BGD,50,Percentage of children aged 36-59 months attending an early childhood education programme,2019,19,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Bangladesh,BD,BGD,50,Percentage of children aged 36-59 months attending an early childhood education programme,2019,18.8,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Bangladesh,BD,BGD,50,Percentage of children aged 36-59 months attending an early childhood education programme,2019,18.9,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Barbados,BB,BRB,52,Percentage of children aged 36-59 months attending an early childhood education programme,2012,91.2,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Barbados,BB,BRB,52,Percentage of children aged 36-59 months attending an early childhood education programme,2012,88.3,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Barbados,BB,BRB,52,Percentage of children aged 36-59 months attending an early childhood education programme,2012,89.7,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Belarus,BY,BLR,112,Percentage of children aged 36-59 months attending an early childhood education programme,2019,91,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Belarus,BY,BLR,112,Percentage of children aged 36-59 months attending an early childhood education programme,2019,91,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Belarus,BY,BLR,112,Percentage of children aged 36-59 months attending an early childhood education programme,2019,91,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Belize,BZ,BLZ,84,Percentage of children aged 36-59 months attending an early childhood education programme,2016,57.5,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Belize,BZ,BLZ,84,Percentage of children aged 36-59 months attending an early childhood education programme,2016,52.2,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Belize,BZ,BLZ,84,Percentage of children aged 36-59 months attending an early childhood education programme,2016,54.8,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Benin,BJ,BEN,204,Percentage of children aged 36-59 months attending an early childhood education programme,2022,13.1,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Benin,BJ,BEN,204,Percentage of children aged 36-59 months attending an early childhood education programme,2022,12.3,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Benin,BJ,BEN,204,Percentage of children aged 36-59 months attending an early childhood education programme,2022,12.7,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Bhutan,BT,BTN,64,Percentage of children aged 36-59 months attending an early childhood education programme,2010,9.5,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Bhutan,BT,BTN,64,Percentage of children aged 36-59 months attending an early childhood education programme,2010,9.6,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Bhutan,BT,BTN,64,Percentage of children aged 36-59 months attending an early childhood education programme,2010,9.5,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Bolivia,BO,BOL,68,Percentage of children aged 36-59 months attending an early childhood education programme,2016,22.8,Female,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Bolivia,BO,BOL,68,Percentage of children aged 36-59 months attending an early childhood education programme,2016,19.4,Male,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Bolivia,BO,BOL,68,Percentage of children aged 36-59 months attending an early childhood education programme,2016,21.1,Total,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Bosnia and Herzegovina,BA,BIH,70,Percentage of children aged 36-59 months attending an early childhood education programme,2012,14,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Bosnia and Herzegovina,BA,BIH,70,Percentage of children aged 36-59 months attending an early childhood education programme,2012,12.2,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Bosnia and Herzegovina,BA,BIH,70,Percentage of children aged 36-59 months attending an early childhood education programme,2012,13.1,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Botswana,BW,BWA,72,Percentage of children aged 36-59 months attending an early childhood education programme,2017,24.1,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Brazil,BR,BRA,76,Percentage of children aged 36-59 months attending an early childhood education programme,2022,91.5,Total,,%,Reported,Free,End of fieldwork,4 to 5 years old
+Burkina Faso,BF,BFA,854,Percentage of children aged 36-59 months attending an early childhood education programme,2021,2.8,Female,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Burkina Faso,BF,BFA,854,Percentage of children aged 36-59 months attending an early childhood education programme,2021,2.4,Male,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Burkina Faso,BF,BFA,854,Percentage of children aged 36-59 months attending an early childhood education programme,2021,2.6,Total,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Burundi,BI,BDI,108,Percentage of children aged 36-59 months attending an early childhood education programme,2017,7.2,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Burundi,BI,BDI,108,Percentage of children aged 36-59 months attending an early childhood education programme,2017,7.1,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Burundi,BI,BDI,108,Percentage of children aged 36-59 months attending an early childhood education programme,2017,7.2,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Cape Verde,CV,CPV,132,Percentage of children aged 36-59 months attending an early childhood education programme,2018,87.7,Female,,%,Reported,Free,End of fieldwork,3 to 5 years old
+Cape Verde,CV,CPV,132,Percentage of children aged 36-59 months attending an early childhood education programme,2018,87.4,Male,,%,Reported,Free,End of fieldwork,3 to 5 years old
+Cape Verde,CV,CPV,132,Percentage of children aged 36-59 months attending an early childhood education programme,2018,87.5,Total,,%,Reported,Free,End of fieldwork,3 to 5 years old
+Cambodia,KH,KHM,116,Percentage of children aged 36-59 months attending an early childhood education programme,2014,17.1,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Cambodia,KH,KHM,116,Percentage of children aged 36-59 months attending an early childhood education programme,2014,11.9,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Cambodia,KH,KHM,116,Percentage of children aged 36-59 months attending an early childhood education programme,2014,14.5,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Cameroon,CM,CMR,120,Percentage of children aged 36-59 months attending an early childhood education programme,2014,28.7,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Cameroon,CM,CMR,120,Percentage of children aged 36-59 months attending an early childhood education programme,2014,26.6,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Cameroon,CM,CMR,120,Percentage of children aged 36-59 months attending an early childhood education programme,2014,27.6,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Central African Republic,CF,CAF,140,Percentage of children aged 36-59 months attending an early childhood education programme,2019,6.8,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Central African Republic,CF,CAF,140,Percentage of children aged 36-59 months attending an early childhood education programme,2019,5.7,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Central African Republic,CF,CAF,140,Percentage of children aged 36-59 months attending an early childhood education programme,2019,6.3,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Chad,TD,TCD,148,Percentage of children aged 36-59 months attending an early childhood education programme,2019,1,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Chad,TD,TCD,148,Percentage of children aged 36-59 months attending an early childhood education programme,2019,1,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Chad,TD,TCD,148,Percentage of children aged 36-59 months attending an early childhood education programme,2019,1,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Chile,CL,CHL,152,Percentage of children aged 36-59 months attending an early childhood education programme,2022,66.1,Female,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Chile,CL,CHL,152,Percentage of children aged 36-59 months attending an early childhood education programme,2022,66.9,Male,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Chile,CL,CHL,152,Percentage of children aged 36-59 months attending an early childhood education programme,2022,66.5,Total,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Colombia,CO,COL,170,Percentage of children aged 36-59 months attending an early childhood education programme,2019,35.8,Total,,%,Reported,Free,End of fieldwork,Under 5 years old
+Comoros,KM,COM,174,Percentage of children aged 36-59 months attending an early childhood education programme,2022,35.1,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Comoros,KM,COM,174,Percentage of children aged 36-59 months attending an early childhood education programme,2022,27.3,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Comoros,KM,COM,174,Percentage of children aged 36-59 months attending an early childhood education programme,2022,31.1,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Congo,CG,COG,178,Percentage of children aged 36-59 months attending an early childhood education programme,2015,36.8,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Congo,CG,COG,178,Percentage of children aged 36-59 months attending an early childhood education programme,2015,36.1,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Congo,CG,COG,178,Percentage of children aged 36-59 months attending an early childhood education programme,2015,36.4,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Costa Rica,CR,CRI,188,Percentage of children aged 36-59 months attending an early childhood education programme,2018,47.3,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Costa Rica,CR,CRI,188,Percentage of children aged 36-59 months attending an early childhood education programme,2018,41.2,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Costa Rica,CR,CRI,188,Percentage of children aged 36-59 months attending an early childhood education programme,2018,44.2,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Croatia,HR,HRV,191,Percentage of children aged 36-59 months attending an early childhood education programme,2022,83.5,Female,,%,Reported,Free,End of fieldwork,3 to 7 years old
+Croatia,HR,HRV,191,Percentage of children aged 36-59 months attending an early childhood education programme,2022,83.4,Male,,%,Reported,Free,End of fieldwork,3 to 7 years old
+Croatia,HR,HRV,191,Percentage of children aged 36-59 months attending an early childhood education programme,2022,83.5,Total,,%,Reported,Free,End of fieldwork,3 to 7 years old
+Cuba,CU,CUB,192,Percentage of children aged 36-59 months attending an early childhood education programme,2019,52.6,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Cuba,CU,CUB,192,Percentage of children aged 36-59 months attending an early childhood education programme,2019,46.7,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Cuba,CU,CUB,192,Percentage of children aged 36-59 months attending an early childhood education programme,2019,49.7,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Ivory Coast,CI,CIV,384,Percentage of children aged 36-59 months attending an early childhood education programme,2021,3.8,Female,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Ivory Coast,CI,CIV,384,Percentage of children aged 36-59 months attending an early childhood education programme,2021,4.5,Male,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Ivory Coast,CI,CIV,384,Percentage of children aged 36-59 months attending an early childhood education programme,2021,4.2,Total,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+"Korea, Democratic People's Republic of",KP,PRK,408,Percentage of children aged 36-59 months attending an early childhood education programme,2017,72.8,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+"Korea, Democratic People's Republic of",KP,PRK,408,Percentage of children aged 36-59 months attending an early childhood education programme,2017,72.7,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+"Korea, Democratic People's Republic of",KP,PRK,408,Percentage of children aged 36-59 months attending an early childhood education programme,2017,72.7,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+"Congo, the Democratic Republic of the",CD,COD,180,Percentage of children aged 36-59 months attending an early childhood education programme,2018,4.7,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+"Congo, the Democratic Republic of the",CD,COD,180,Percentage of children aged 36-59 months attending an early childhood education programme,2018,5.6,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+"Congo, the Democratic Republic of the",CD,COD,180,Percentage of children aged 36-59 months attending an early childhood education programme,2018,5.1,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Djibouti,DJ,DJI,262,Percentage of children aged 36-59 months attending an early childhood education programme,2006,15.6,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Djibouti,DJ,DJI,262,Percentage of children aged 36-59 months attending an early childhood education programme,2006,11.7,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Djibouti,DJ,DJI,262,Percentage of children aged 36-59 months attending an early childhood education programme,2006,13.5,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Dominican Republic,DO,DOM,214,Percentage of children aged 36-59 months attending an early childhood education programme,2019,50.1,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Dominican Republic,DO,DOM,214,Percentage of children aged 36-59 months attending an early childhood education programme,2019,46.2,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Dominican Republic,DO,DOM,214,Percentage of children aged 36-59 months attending an early childhood education programme,2019,48.2,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Ecuador,EC,ECU,218,Percentage of children aged 36-59 months attending an early childhood education programme,2024,53,Female,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Ecuador,EC,ECU,218,Percentage of children aged 36-59 months attending an early childhood education programme,2024,54.5,Male,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Ecuador,EC,ECU,218,Percentage of children aged 36-59 months attending an early childhood education programme,2024,53.8,Total,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Egypt,EG,EGY,818,Percentage of children aged 36-59 months attending an early childhood education programme,2021,47.5,Female,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Egypt,EG,EGY,818,Percentage of children aged 36-59 months attending an early childhood education programme,2021,49.1,Male,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Egypt,EG,EGY,818,Percentage of children aged 36-59 months attending an early childhood education programme,2021,48.3,Total,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+El Salvador,SV,SLV,222,Percentage of children aged 36-59 months attending an early childhood education programme,2021,21.2,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+El Salvador,SV,SLV,222,Percentage of children aged 36-59 months attending an early childhood education programme,2021,18.9,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+El Salvador,SV,SLV,222,Percentage of children aged 36-59 months attending an early childhood education programme,2021,20.1,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Swaziland,SZ,SWZ,748,Percentage of children aged 36-59 months attending an early childhood education programme,2022,10.7,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Swaziland,SZ,SWZ,748,Percentage of children aged 36-59 months attending an early childhood education programme,2022,7.9,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Swaziland,SZ,SWZ,748,Percentage of children aged 36-59 months attending an early childhood education programme,2022,9.3,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Fiji,FJ,FJI,242,Percentage of children aged 36-59 months attending an early childhood education programme,2021,20.2,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Fiji,FJ,FJI,242,Percentage of children aged 36-59 months attending an early childhood education programme,2021,22.6,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Fiji,FJ,FJI,242,Percentage of children aged 36-59 months attending an early childhood education programme,2021,21.5,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Gabon,GA,GAB,266,Percentage of children aged 36-59 months attending an early childhood education programme,2021,48.9,Female,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Gabon,GA,GAB,266,Percentage of children aged 36-59 months attending an early childhood education programme,2021,52.9,Male,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Gabon,GA,GAB,266,Percentage of children aged 36-59 months attending an early childhood education programme,2021,50.9,Total,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Gambia,GM,GMB,270,Percentage of children aged 36-59 months attending an early childhood education programme,2018,24.7,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Gambia,GM,GMB,270,Percentage of children aged 36-59 months attending an early childhood education programme,2018,23,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Gambia,GM,GMB,270,Percentage of children aged 36-59 months attending an early childhood education programme,2018,23.8,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Georgia,GE,GEO,268,Percentage of children aged 36-59 months attending an early childhood education programme,2018,79.3,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Georgia,GE,GEO,268,Percentage of children aged 36-59 months attending an early childhood education programme,2018,76.5,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Georgia,GE,GEO,268,Percentage of children aged 36-59 months attending an early childhood education programme,2018,77.9,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Ghana,GH,GHA,288,Percentage of children aged 36-59 months attending an early childhood education programme,2018,70.4,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Ghana,GH,GHA,288,Percentage of children aged 36-59 months attending an early childhood education programme,2018,71.4,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Ghana,GH,GHA,288,Percentage of children aged 36-59 months attending an early childhood education programme,2018,70.9,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Guinea,GN,GIN,324,Percentage of children aged 36-59 months attending an early childhood education programme,2016,9.4,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Guinea,GN,GIN,324,Percentage of children aged 36-59 months attending an early childhood education programme,2016,8.8,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Guinea,GN,GIN,324,Percentage of children aged 36-59 months attending an early childhood education programme,2016,9.1,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Guinea-Bissau,GW,GNB,624,Percentage of children aged 36-59 months attending an early childhood education programme,2019,16.8,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Guinea-Bissau,GW,GNB,624,Percentage of children aged 36-59 months attending an early childhood education programme,2019,12.1,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Guinea-Bissau,GW,GNB,624,Percentage of children aged 36-59 months attending an early childhood education programme,2019,14.3,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Guyana,GY,GUY,328,Percentage of children aged 36-59 months attending an early childhood education programme,2020,45.2,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Guyana,GY,GUY,328,Percentage of children aged 36-59 months attending an early childhood education programme,2020,48.2,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Guyana,GY,GUY,328,Percentage of children aged 36-59 months attending an early childhood education programme,2020,46.7,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Haiti,HT,HTI,332,Percentage of children aged 36-59 months attending an early childhood education programme,2017,62.5,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Haiti,HT,HTI,332,Percentage of children aged 36-59 months attending an early childhood education programme,2017,62.9,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Haiti,HT,HTI,332,Percentage of children aged 36-59 months attending an early childhood education programme,2017,62.7,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Honduras,HN,HND,340,Percentage of children aged 36-59 months attending an early childhood education programme,2019,13.4,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Honduras,HN,HND,340,Percentage of children aged 36-59 months attending an early childhood education programme,2019,13.8,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Honduras,HN,HND,340,Percentage of children aged 36-59 months attending an early childhood education programme,2019,13.6,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+India,IN,IND,356,Percentage of children aged 36-59 months attending an early childhood education programme,2021,50.1,Female,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+India,IN,IND,356,Percentage of children aged 36-59 months attending an early childhood education programme,2021,48.3,Male,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+India,IN,IND,356,Percentage of children aged 36-59 months attending an early childhood education programme,2021,49.2,Total,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Indonesia,ID,IDN,360,Percentage of children aged 36-59 months attending an early childhood education programme,2022,12.7,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+"Iran, Islamic Republic of",IR,IRN,364,Percentage of children aged 36-59 months attending an early childhood education programme,2017,18,Total,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Iraq,IQ,IRQ,368,Percentage of children aged 36-59 months attending an early childhood education programme,2018,2.5,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Iraq,IQ,IRQ,368,Percentage of children aged 36-59 months attending an early childhood education programme,2018,2.2,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Iraq,IQ,IRQ,368,Percentage of children aged 36-59 months attending an early childhood education programme,2018,2.4,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Jamaica,JM,JAM,388,Percentage of children aged 36-59 months attending an early childhood education programme,2022,72.2,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Jamaica,JM,JAM,388,Percentage of children aged 36-59 months attending an early childhood education programme,2022,69.8,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Jamaica,JM,JAM,388,Percentage of children aged 36-59 months attending an early childhood education programme,2022,70.9,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Jordan,JO,JOR,400,Percentage of children aged 36-59 months attending an early childhood education programme,2018,14.1,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Jordan,JO,JOR,400,Percentage of children aged 36-59 months attending an early childhood education programme,2018,11.6,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Jordan,JO,JOR,400,Percentage of children aged 36-59 months attending an early childhood education programme,2018,12.8,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Kazakhstan,KZ,KAZ,398,Percentage of children aged 36-59 months attending an early childhood education programme,2015,57.9,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Kazakhstan,KZ,KAZ,398,Percentage of children aged 36-59 months attending an early childhood education programme,2015,52.8,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Kazakhstan,KZ,KAZ,398,Percentage of children aged 36-59 months attending an early childhood education programme,2015,55.3,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Kenya,KE,KEN,404,Percentage of children aged 36-59 months attending an early childhood education programme,2022,36.7,Female,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Kenya,KE,KEN,404,Percentage of children aged 36-59 months attending an early childhood education programme,2022,35.1,Male,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Kenya,KE,KEN,404,Percentage of children aged 36-59 months attending an early childhood education programme,2022,35.9,Total,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Kiribati,KI,KIR,296,Percentage of children aged 36-59 months attending an early childhood education programme,2019,75.2,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Kiribati,KI,KIR,296,Percentage of children aged 36-59 months attending an early childhood education programme,2019,69.3,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Kiribati,KI,KIR,296,Percentage of children aged 36-59 months attending an early childhood education programme,2019,72.2,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Kyrgyzstan,KG,KGZ,417,Percentage of children aged 36-59 months attending an early childhood education programme,2023,31.3,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Kyrgyzstan,KG,KGZ,417,Percentage of children aged 36-59 months attending an early childhood education programme,2023,31.9,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Kyrgyzstan,KG,KGZ,417,Percentage of children aged 36-59 months attending an early childhood education programme,2023,31.6,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Lao People's Democratic Republic,LA,LAO,418,Percentage of children aged 36-59 months attending an early childhood education programme,2023,29,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Lao People's Democratic Republic,LA,LAO,418,Percentage of children aged 36-59 months attending an early childhood education programme,2023,24.9,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Lao People's Democratic Republic,LA,LAO,418,Percentage of children aged 36-59 months attending an early childhood education programme,2023,26.9,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Lebanon,LB,LBN,422,Percentage of children aged 36-59 months attending an early childhood education programme,2009,60.4,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Lebanon,LB,LBN,422,Percentage of children aged 36-59 months attending an early childhood education programme,2009,63.2,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Lebanon,LB,LBN,422,Percentage of children aged 36-59 months attending an early childhood education programme,2009,61.7,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Lesotho,LS,LSO,426,Percentage of children aged 36-59 months attending an early childhood education programme,2018,46.4,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Lesotho,LS,LSO,426,Percentage of children aged 36-59 months attending an early childhood education programme,2018,45.2,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Lesotho,LS,LSO,426,Percentage of children aged 36-59 months attending an early childhood education programme,2018,45.8,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Libyan Arab Jamahiriya,LY,LBY,434,Percentage of children aged 36-59 months attending an early childhood education programme,2003,5.6,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Madagascar,MG,MDG,450,Percentage of children aged 36-59 months attending an early childhood education programme,2018,14.8,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Madagascar,MG,MDG,450,Percentage of children aged 36-59 months attending an early childhood education programme,2018,15,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Madagascar,MG,MDG,450,Percentage of children aged 36-59 months attending an early childhood education programme,2018,14.9,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Malawi,MW,MWI,454,Percentage of children aged 36-59 months attending an early childhood education programme,2020,36.5,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Malawi,MW,MWI,454,Percentage of children aged 36-59 months attending an early childhood education programme,2020,30.5,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Malawi,MW,MWI,454,Percentage of children aged 36-59 months attending an early childhood education programme,2020,33.6,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Malaysia,MY,MYS,458,Percentage of children aged 36-59 months attending an early childhood education programme,2016,54.5,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Malaysia,MY,MYS,458,Percentage of children aged 36-59 months attending an early childhood education programme,2016,51.8,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Malaysia,MY,MYS,458,Percentage of children aged 36-59 months attending an early childhood education programme,2016,53.1,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Maldives,MV,MDV,462,Percentage of children aged 36-59 months attending an early childhood education programme,2017,78.5,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Maldives,MV,MDV,462,Percentage of children aged 36-59 months attending an early childhood education programme,2017,77.8,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Maldives,MV,MDV,462,Percentage of children aged 36-59 months attending an early childhood education programme,2017,78.1,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Mali,ML,MLI,466,Percentage of children aged 36-59 months attending an early childhood education programme,2015,4.9,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Mali,ML,MLI,466,Percentage of children aged 36-59 months attending an early childhood education programme,2015,5.6,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Mali,ML,MLI,466,Percentage of children aged 36-59 months attending an early childhood education programme,2015,5.3,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Marshall Islands,MH,MHL,584,Percentage of children aged 36-59 months attending an early childhood education programme,2017,5.3,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Marshall Islands,MH,MHL,584,Percentage of children aged 36-59 months attending an early childhood education programme,2017,5.2,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Marshall Islands,MH,MHL,584,Percentage of children aged 36-59 months attending an early childhood education programme,2017,5.2,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Mauritania,MR,MRT,478,Percentage of children aged 36-59 months attending an early childhood education programme,2015,12.1,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Mauritania,MR,MRT,478,Percentage of children aged 36-59 months attending an early childhood education programme,2015,11.8,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Mauritania,MR,MRT,478,Percentage of children aged 36-59 months attending an early childhood education programme,2015,11.9,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Mexico,MX,MEX,484,Percentage of children aged 36-59 months attending an early childhood education programme,2023,55.2,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Mexico,MX,MEX,484,Percentage of children aged 36-59 months attending an early childhood education programme,2023,60.8,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Mexico,MX,MEX,484,Percentage of children aged 36-59 months attending an early childhood education programme,2023,58,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Mongolia,MN,MNG,496,Percentage of children aged 36-59 months attending an early childhood education programme,2023,83.8,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Mongolia,MN,MNG,496,Percentage of children aged 36-59 months attending an early childhood education programme,2023,82.7,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Mongolia,MN,MNG,496,Percentage of children aged 36-59 months attending an early childhood education programme,2023,83.2,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Montenegro,ME,MNE,499,Percentage of children aged 36-59 months attending an early childhood education programme,2018,55.6,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Montenegro,ME,MNE,499,Percentage of children aged 36-59 months attending an early childhood education programme,2018,50.7,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Montenegro,ME,MNE,499,Percentage of children aged 36-59 months attending an early childhood education programme,2018,52.8,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Morocco,MA,MAR,504,Percentage of children aged 36-59 months attending an early childhood education programme,2006,40.8,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Morocco,MA,MAR,504,Percentage of children aged 36-59 months attending an early childhood education programme,2006,36.3,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Morocco,MA,MAR,504,Percentage of children aged 36-59 months attending an early childhood education programme,2006,38.5,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Mozambique,MZ,MOZ,508,Percentage of children aged 36-59 months attending an early childhood education programme,2023,2.1,Female,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Mozambique,MZ,MOZ,508,Percentage of children aged 36-59 months attending an early childhood education programme,2023,2.3,Male,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Mozambique,MZ,MOZ,508,Percentage of children aged 36-59 months attending an early childhood education programme,2023,2.2,Total,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Myanmar,MM,MMR,104,Percentage of children aged 36-59 months attending an early childhood education programme,2016,24.8,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Myanmar,MM,MMR,104,Percentage of children aged 36-59 months attending an early childhood education programme,2016,21.6,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Myanmar,MM,MMR,104,Percentage of children aged 36-59 months attending an early childhood education programme,2016,23.2,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Nauru,NR,NRU,520,Percentage of children aged 36-59 months attending an early childhood education programme,2023,21.3,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Nauru,NR,NRU,520,Percentage of children aged 36-59 months attending an early childhood education programme,2023,19.4,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Nauru,NR,NRU,520,Percentage of children aged 36-59 months attending an early childhood education programme,2023,20.4,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Nepal,NP,NPL,524,Percentage of children aged 36-59 months attending an early childhood education programme,2019,59.9,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Nepal,NP,NPL,524,Percentage of children aged 36-59 months attending an early childhood education programme,2019,63.8,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Nepal,NP,NPL,524,Percentage of children aged 36-59 months attending an early childhood education programme,2019,61.9,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Niger,NE,NER,562,Percentage of children aged 36-59 months attending an early childhood education programme,2000,1.7,Female,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Niger,NE,NER,562,Percentage of children aged 36-59 months attending an early childhood education programme,2000,3.3,Male,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Niger,NE,NER,562,Percentage of children aged 36-59 months attending an early childhood education programme,2000,2.5,Total,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Nigeria,NG,NGA,566,Percentage of children aged 36-59 months attending an early childhood education programme,2021,38.2,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Nigeria,NG,NGA,566,Percentage of children aged 36-59 months attending an early childhood education programme,2021,37.4,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Nigeria,NG,NGA,566,Percentage of children aged 36-59 months attending an early childhood education programme,2021,37.8,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+"Macedonia, the former Yugoslav Republic of",MK,MKD,807,Percentage of children aged 36-59 months attending an early childhood education programme,2019,31.5,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+"Macedonia, the former Yugoslav Republic of",MK,MKD,807,Percentage of children aged 36-59 months attending an early childhood education programme,2019,41,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+"Macedonia, the former Yugoslav Republic of",MK,MKD,807,Percentage of children aged 36-59 months attending an early childhood education programme,2019,36.8,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Oman,OM,OMN,512,Percentage of children aged 36-59 months attending an early childhood education programme,2014,30.8,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Oman,OM,OMN,512,Percentage of children aged 36-59 months attending an early childhood education programme,2014,27.7,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Oman,OM,OMN,512,Percentage of children aged 36-59 months attending an early childhood education programme,2014,29.2,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Panama,PA,PAN,591,Percentage of children aged 36-59 months attending an early childhood education programme,2013,35,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Panama,PA,PAN,591,Percentage of children aged 36-59 months attending an early childhood education programme,2013,38.3,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Panama,PA,PAN,591,Percentage of children aged 36-59 months attending an early childhood education programme,2013,36.8,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Paraguay,PY,PRY,600,Percentage of children aged 36-59 months attending an early childhood education programme,2016,32,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Paraguay,PY,PRY,600,Percentage of children aged 36-59 months attending an early childhood education programme,2016,30.2,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Paraguay,PY,PRY,600,Percentage of children aged 36-59 months attending an early childhood education programme,2016,31.1,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Peru,PE,PER,604,Percentage of children aged 36-59 months attending an early childhood education programme,2023,67,Female,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Peru,PE,PER,604,Percentage of children aged 36-59 months attending an early childhood education programme,2023,63.2,Male,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Peru,PE,PER,604,Percentage of children aged 36-59 months attending an early childhood education programme,2023,65,Total,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Philippines,PH,PHL,608,Percentage of children aged 36-59 months attending an early childhood education programme,2022,18,Female,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Philippines,PH,PHL,608,Percentage of children aged 36-59 months attending an early childhood education programme,2022,19.6,Male,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Philippines,PH,PHL,608,Percentage of children aged 36-59 months attending an early childhood education programme,2022,18.9,Total,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Qatar,QA,QAT,634,Percentage of children aged 36-59 months attending an early childhood education programme,2023,84.8,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Qatar,QA,QAT,634,Percentage of children aged 36-59 months attending an early childhood education programme,2023,83.9,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Qatar,QA,QAT,634,Percentage of children aged 36-59 months attending an early childhood education programme,2023,84.3,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+"Moldova, Republic of",MD,MDA,498,Percentage of children aged 36-59 months attending an early childhood education programme,2012,67.4,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+"Moldova, Republic of",MD,MDA,498,Percentage of children aged 36-59 months attending an early childhood education programme,2012,73.5,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+"Moldova, Republic of",MD,MDA,498,Percentage of children aged 36-59 months attending an early childhood education programme,2012,70.6,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Romania,RO,ROU,642,Percentage of children aged 36-59 months attending an early childhood education programme,2023,76.5,Female,,%,Reanalysed,Free,End of fieldwork,3 to 5 years old
+Romania,RO,ROU,642,Percentage of children aged 36-59 months attending an early childhood education programme,2023,75.8,Male,,%,Reanalysed,Free,End of fieldwork,3 to 5 years old
+Romania,RO,ROU,642,Percentage of children aged 36-59 months attending an early childhood education programme,2023,76.2,Total,,%,Reanalysed,Free,End of fieldwork,3 to 5 years old
+Rwanda,RW,RWA,646,Percentage of children aged 36-59 months attending an early childhood education programme,2020,36.3,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Rwanda,RW,RWA,646,Percentage of children aged 36-59 months attending an early childhood education programme,2020,32.8,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Rwanda,RW,RWA,646,Percentage of children aged 36-59 months attending an early childhood education programme,2020,34.5,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Saint Lucia,LC,LCA,662,Percentage of children aged 36-59 months attending an early childhood education programme,2012,83.8,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Saint Lucia,LC,LCA,662,Percentage of children aged 36-59 months attending an early childhood education programme,2012,87,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Saint Lucia,LC,LCA,662,Percentage of children aged 36-59 months attending an early childhood education programme,2012,85.3,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Samoa,WS,WSM,882,Percentage of children aged 36-59 months attending an early childhood education programme,2020,29.4,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Samoa,WS,WSM,882,Percentage of children aged 36-59 months attending an early childhood education programme,2020,22.9,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Samoa,WS,WSM,882,Percentage of children aged 36-59 months attending an early childhood education programme,2020,25.9,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Sao Tome and Principe,ST,STP,678,Percentage of children aged 36-59 months attending an early childhood education programme,2019,33.9,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Sao Tome and Principe,ST,STP,678,Percentage of children aged 36-59 months attending an early childhood education programme,2019,35.9,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Sao Tome and Principe,ST,STP,678,Percentage of children aged 36-59 months attending an early childhood education programme,2019,34.9,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Senegal,SN,SEN,686,Percentage of children aged 36-59 months attending an early childhood education programme,2023,19.5,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Senegal,SN,SEN,686,Percentage of children aged 36-59 months attending an early childhood education programme,2023,15.7,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Senegal,SN,SEN,686,Percentage of children aged 36-59 months attending an early childhood education programme,2023,17.6,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Serbia,RS,SRB,688,Percentage of children aged 36-59 months attending an early childhood education programme,2019,63,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Serbia,RS,SRB,688,Percentage of children aged 36-59 months attending an early childhood education programme,2019,58.3,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Serbia,RS,SRB,688,Percentage of children aged 36-59 months attending an early childhood education programme,2019,60.6,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Sierra Leone,SL,SLE,694,Percentage of children aged 36-59 months attending an early childhood education programme,2017,12.3,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Sierra Leone,SL,SLE,694,Percentage of children aged 36-59 months attending an early childhood education programme,2017,10.6,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Sierra Leone,SL,SLE,694,Percentage of children aged 36-59 months attending an early childhood education programme,2017,11.5,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Slovakia,SK,SVK,703,Percentage of children aged 36-59 months attending an early childhood education programme,2022,77.4,Total,,%,Reported,Free,End of fieldwork,3 to 5 years old
+Somalia,SO,SOM,706,Percentage of children aged 36-59 months attending an early childhood education programme,2006,2.2,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Somalia,SO,SOM,706,Percentage of children aged 36-59 months attending an early childhood education programme,2006,2.3,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Somalia,SO,SOM,706,Percentage of children aged 36-59 months attending an early childhood education programme,2006,2.3,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+South Africa,ZA,ZAF,710,Percentage of children aged 36-59 months attending an early childhood education programme,2015,48.1,Total,,%,Reported,Free,End of fieldwork,Under 5 years old
+South Sudan,SS,SSD,728,Percentage of children aged 36-59 months attending an early childhood education programme,2010,5.9,Female,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+South Sudan,SS,SSD,728,Percentage of children aged 36-59 months attending an early childhood education programme,2010,6,Male,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+South Sudan,SS,SSD,728,Percentage of children aged 36-59 months attending an early childhood education programme,2010,5.9,Total,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Sri Lanka,LK,LKA,144,Percentage of children aged 36-59 months attending an early childhood education programme,2019,54.1,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Sri Lanka,LK,LKA,144,Percentage of children aged 36-59 months attending an early childhood education programme,2019,52.3,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Sri Lanka,LK,LKA,144,Percentage of children aged 36-59 months attending an early childhood education programme,2019,53.2,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+"Palestinian Territory, Occupied",PS,PSE,275,Percentage of children aged 36-59 months attending an early childhood education programme,2020,32.5,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+"Palestinian Territory, Occupied",PS,PSE,275,Percentage of children aged 36-59 months attending an early childhood education programme,2020,35.9,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+"Palestinian Territory, Occupied",PS,PSE,275,Percentage of children aged 36-59 months attending an early childhood education programme,2020,34.2,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Sudan,SD,SDN,736,Percentage of children aged 36-59 months attending an early childhood education programme,2014,22.7,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Sudan,SD,SDN,736,Percentage of children aged 36-59 months attending an early childhood education programme,2014,21.9,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Sudan,SD,SDN,736,Percentage of children aged 36-59 months attending an early childhood education programme,2014,22.3,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Suriname,SR,SUR,740,Percentage of children aged 36-59 months attending an early childhood education programme,2018,48.9,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Suriname,SR,SUR,740,Percentage of children aged 36-59 months attending an early childhood education programme,2018,42.6,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Suriname,SR,SUR,740,Percentage of children aged 36-59 months attending an early childhood education programme,2018,45.7,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Syrian Arab Republic,SY,SYR,760,Percentage of children aged 36-59 months attending an early childhood education programme,2006,7.2,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Syrian Arab Republic,SY,SYR,760,Percentage of children aged 36-59 months attending an early childhood education programme,2006,7.9,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Syrian Arab Republic,SY,SYR,760,Percentage of children aged 36-59 months attending an early childhood education programme,2006,7.5,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Tajikistan,TJ,TJK,762,Percentage of children aged 36-59 months attending an early childhood education programme,2012,6.1,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Thailand,TH,THA,764,Percentage of children aged 36-59 months attending an early childhood education programme,2022,74.2,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Thailand,TH,THA,764,Percentage of children aged 36-59 months attending an early childhood education programme,2022,75.3,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Thailand,TH,THA,764,Percentage of children aged 36-59 months attending an early childhood education programme,2022,74.8,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Timor-Leste,TL,TLS,626,Percentage of children aged 36-59 months attending an early childhood education programme,2016,15.7,Female,,%,Reported,Free,End of fieldwork,36 to 47 months old
+Timor-Leste,TL,TLS,626,Percentage of children aged 36-59 months attending an early childhood education programme,2016,12.9,Male,,%,Reported,Free,End of fieldwork,36 to 47 months old
+Timor-Leste,TL,TLS,626,Percentage of children aged 36-59 months attending an early childhood education programme,2016,14.3,Total,,%,Reported,Free,End of fieldwork,36 to 47 months old
+Togo,TG,TGO,768,Percentage of children aged 36-59 months attending an early childhood education programme,2017,19.7,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Togo,TG,TGO,768,Percentage of children aged 36-59 months attending an early childhood education programme,2017,20.7,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Togo,TG,TGO,768,Percentage of children aged 36-59 months attending an early childhood education programme,2017,20.2,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Tonga,TO,TON,776,Percentage of children aged 36-59 months attending an early childhood education programme,2019,41.1,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Tonga,TO,TON,776,Percentage of children aged 36-59 months attending an early childhood education programme,2019,30.2,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Tonga,TO,TON,776,Percentage of children aged 36-59 months attending an early childhood education programme,2019,35.3,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Trinidad and Tobago,TT,TTO,780,Percentage of children aged 36-59 months attending an early childhood education programme,2022,57.1,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Trinidad and Tobago,TT,TTO,780,Percentage of children aged 36-59 months attending an early childhood education programme,2022,61.5,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Trinidad and Tobago,TT,TTO,780,Percentage of children aged 36-59 months attending an early childhood education programme,2022,59.3,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Tunisia,TN,TUN,788,Percentage of children aged 36-59 months attending an early childhood education programme,2023,45.1,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Tunisia,TN,TUN,788,Percentage of children aged 36-59 months attending an early childhood education programme,2023,49.3,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Tunisia,TN,TUN,788,Percentage of children aged 36-59 months attending an early childhood education programme,2023,47.2,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Turkmenistan,TM,TKM,795,Percentage of children aged 36-59 months attending an early childhood education programme,2019,41.6,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Turkmenistan,TM,TKM,795,Percentage of children aged 36-59 months attending an early childhood education programme,2019,39.9,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Turkmenistan,TM,TKM,795,Percentage of children aged 36-59 months attending an early childhood education programme,2019,40.8,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Turks and Caicos Islands,TC,TCA,796,Percentage of children aged 36-59 months attending an early childhood education programme,2020,91.9,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Turks and Caicos Islands,TC,TCA,796,Percentage of children aged 36-59 months attending an early childhood education programme,2020,94.5,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Turks and Caicos Islands,TC,TCA,796,Percentage of children aged 36-59 months attending an early childhood education programme,2020,93.3,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Tuvalu,TV,TUV,798,Percentage of children aged 36-59 months attending an early childhood education programme,2020,69.7,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Tuvalu,TV,TUV,798,Percentage of children aged 36-59 months attending an early childhood education programme,2020,75.1,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Tuvalu,TV,TUV,798,Percentage of children aged 36-59 months attending an early childhood education programme,2020,72.8,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Turkey,TR,TUR,792,Percentage of children aged 36-59 months attending an early childhood education programme,2022,30.8,Female,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Turkey,TR,TUR,792,Percentage of children aged 36-59 months attending an early childhood education programme,2022,32.4,Male,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Turkey,TR,TUR,792,Percentage of children aged 36-59 months attending an early childhood education programme,2022,31.6,Total,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Uganda,UG,UGA,800,Percentage of children aged 36-59 months attending an early childhood education programme,2016,38.9,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Uganda,UG,UGA,800,Percentage of children aged 36-59 months attending an early childhood education programme,2016,34.3,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Uganda,UG,UGA,800,Percentage of children aged 36-59 months attending an early childhood education programme,2016,36.6,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Ukraine,UA,UKR,804,Percentage of children aged 36-59 months attending an early childhood education programme,2012,50.2,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Ukraine,UA,UKR,804,Percentage of children aged 36-59 months attending an early childhood education programme,2012,53.7,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Ukraine,UA,UKR,804,Percentage of children aged 36-59 months attending an early childhood education programme,2012,51.9,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Uruguay,UY,URY,858,Percentage of children aged 36-59 months attending an early childhood education programme,2023,91.1,Female,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Uruguay,UY,URY,858,Percentage of children aged 36-59 months attending an early childhood education programme,2023,90.8,Male,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Uruguay,UY,URY,858,Percentage of children aged 36-59 months attending an early childhood education programme,2023,90.9,Total,,%,Reanalysed,Free,End of fieldwork,36 to 59 months old
+Uzbekistan,UZ,UZB,860,Percentage of children aged 36-59 months attending an early childhood education programme,2022,40.6,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Uzbekistan,UZ,UZB,860,Percentage of children aged 36-59 months attending an early childhood education programme,2022,51.1,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Uzbekistan,UZ,UZB,860,Percentage of children aged 36-59 months attending an early childhood education programme,2022,46.1,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Vanuatu,VU,VUT,548,Percentage of children aged 36-59 months attending an early childhood education programme,2023,38,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Vanuatu,VU,VUT,548,Percentage of children aged 36-59 months attending an early childhood education programme,2023,40.5,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Vanuatu,VU,VUT,548,Percentage of children aged 36-59 months attending an early childhood education programme,2023,39.3,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+"Venezuela, Bolivarian Republic of",VE,VEN,862,Percentage of children aged 36-59 months attending an early childhood education programme,2011,65.7,Total,,%,Reanalysed,Free,End of fieldwork,3 to 6 years old
+Viet Nam,VN,VNM,704,Percentage of children aged 36-59 months attending an early childhood education programme,2021,79.2,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Viet Nam,VN,VNM,704,Percentage of children aged 36-59 months attending an early childhood education programme,2021,81.7,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Viet Nam,VN,VNM,704,Percentage of children aged 36-59 months attending an early childhood education programme,2021,80.5,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Yemen,YE,YEM,887,Percentage of children aged 36-59 months attending an early childhood education programme,2023,0.5,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Yemen,YE,YEM,887,Percentage of children aged 36-59 months attending an early childhood education programme,2023,0.5,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Yemen,YE,YEM,887,Percentage of children aged 36-59 months attending an early childhood education programme,2023,0.5,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Zimbabwe,ZW,ZWE,716,Percentage of children aged 36-59 months attending an early childhood education programme,2019,29.1,Female,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Zimbabwe,ZW,ZWE,716,Percentage of children aged 36-59 months attending an early childhood education programme,2019,27.7,Male,,%,Reported,Free,End of fieldwork,36 to 59 months old
+Zimbabwe,ZW,ZWE,716,Percentage of children aged 36-59 months attending an early childhood education programme,2019,28.4,Total,,%,Reported,Free,End of fieldwork,36 to 59 months old
