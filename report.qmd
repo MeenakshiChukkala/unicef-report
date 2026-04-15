@@ -131,7 +131,7 @@ map_plot.draw()
 
 ## The Double Penalty: Deprivation and Missing Education {#sec-scatter}
 
-This scatterplot reveals the cruellest finding in the data. Look at the top-left corner — countries with the **highest deprivation rates** also have the **lowest ECE attendance**. These children are failed twice: first through poverty, then through lack of education.
+This scatterplot reveals the cruellest finding in the data. Look at the top-left corner countries with the **highest deprivation rates** also have the **lowest ECE attendance**. These children are failed twice: first through poverty, then through lackof education.
 
 The **correlation between deprivation and ECE attendance is -0.49** a strong negative relationship. As deprivation rises, access to early education falls.
 
@@ -202,7 +202,7 @@ scatter_plot.draw()
 
 ## Child Deprivation is Concentrated in Sub-Saharan Africa {#sec-bar}
 
-The bar chart below shows the **top 15 countries** by average child deprivation rate. Look at the list — almost every single country is in Sub-Saharan Africa.
+The bar chart below shows the **top 15 countries** by average child deprivation rate. Look at the list almost every single country is in Sub-Saharan Africa.
 
 **Ethiopia leads at 17.4%.** The pattern is not random. It is the product of decades of underinvestment, conflict, and structural inequality. These are not unlucky countries they are countries that have been systematically left behind.
 
