@@ -24,12 +24,12 @@ execute:
 
 > *"Where you are born determines whether you will go to school."*
 
-The world's richest nation has a GDP per capita **850 times higher** than the poorest. That number is almost too large to feel real. But the consequence of it is felt every single day by millions of children — in empty stomachs, in empty classrooms, in futures quietly closed off before they even begin.
+The world's richest nation has a GDP per capita **850 times higher** than the poorest. That number is almost too large to feel real. But the consequence of it is felt every single day by millions of children in empty stomachs, in empty classrooms, in futures quietly closed off before they even begin.
 
 This report tells the story of two crises that are deeply intertwined:
 
-- **Child deprivation** — the percentage of children suffering at least **four simultaneous deprivations** (hunger, disease, lack of shelter, no access to water, and more)
-- **Early childhood education (ECE)** — the percentage of children aged **36–59 months** attending a preschool programme
+- **Child deprivation** the percentage of children suffering at least **four simultaneous deprivations** (hunger, disease, lack of shelter, no access to water, and more)
+- **Early childhood education (ECE)** the percentage of children aged **36–59 months** attending a preschool programme
 
 The data reveals a cruel pattern: **the children who need education the most are the least likely to get it.**
 
@@ -69,9 +69,9 @@ print(f"Deprivation — mean: {dep_total['obs_value'].mean():.2f}%")
 
 ## The Wealth Divide: A World Map of Child Deprivation {#sec-map}
 
-The map below shows average child deprivation rates by country. **Dark red countries are those with the highest measured child deprivation rates in this dataset** — where poverty is not just a number but a daily reality of hunger, disease, and missed opportunities.
+The map below shows average child deprivation rates by country. **Dark red countries are those with the highest measured child deprivation rates in this dataset** where poverty is not just a number but a daily reality of hunger, disease, and missed opportunities.
 
-Sub-Saharan Africa dominates the darkest shades. **Ethiopia stands at 17.4%** — the highest child deprivation rate in this dataset. Every country clustered in dark red is a Sub-Saharan African nation, with one exception: **Cambodia** — the only South/Southeast Asian country in the danger zone. The lighter-coloured countries tend to show lower measured deprivation in this dataset, while blue countries represent missing data.
+Sub-Saharan Africa dominates the darkest shades. **Ethiopia stands at 17.4%** the highest child deprivation rate in this dataset. Every country clustered in dark red is a Sub-Saharan African nation, with one exception: **Cambodia** the only South/Southeast Asian country in the danger zone. The lighter-coloured countries tend to show lower measured deprivation in this dataset, while blue countries represent missing data.
 
 ```{python}
 #| label: fig-worldmap
@@ -133,7 +133,7 @@ map_plot.draw()
 
 This scatterplot reveals the cruellest finding in the data. Look at the top-left corner — countries with the **highest deprivation rates** also have the **lowest ECE attendance**. These children are failed twice: first through poverty, then through lack of education.
 
-The **correlation between deprivation and ECE attendance is -0.49** — a strong negative relationship. As deprivation rises, access to early education falls.
+The **correlation between deprivation and ECE attendance is -0.49** a strong negative relationship. As deprivation rises, access to early education falls.
 
 Consider these cases specifically:
 
@@ -204,7 +204,7 @@ scatter_plot.draw()
 
 The bar chart below shows the **top 15 countries** by average child deprivation rate. Look at the list — almost every single country is in Sub-Saharan Africa.
 
-**Ethiopia leads at 17.4%.** The pattern is not random. It is the product of decades of underinvestment, conflict, and structural inequality. These are not unlucky countries — they are countries that have been systematically left behind.
+**Ethiopia leads at 17.4%.** The pattern is not random. It is the product of decades of underinvestment, conflict, and structural inequality. These are not unlucky countries they are countries that have been systematically left behind.
 
 ```{python}
 #| label: fig-barchart
@@ -343,7 +343,7 @@ The scatterplot showed a broad negative relationship between deprivation and ear
 
 Each line connects a country’s rank in child deprivation with its rank in ECE attendance among the same group of most deprived countries. Countries with a large gap between the two positions are facing a double burden: they rank among the worst for deprivation, and they also perform poorly in preschool access.
 
-This chart matters because it shifts the focus from averages to **relative disadvantage**. It shows that the same countries appearing at the top of the deprivation list often also cluster near the bottom for educational access. In other words, children are not only living with hardship — they are also being denied one of the main tools that could help break that cycle.
+This chart matters because it shifts the focus from averages to **relative disadvantage**. It shows that the same countries appearing at the top of the deprivation list often also cluster near the bottom for educational access. In other words, children are not only living with hardship they are also being denied one of the main tools that could help break that cycle.
 
 ```{python}
 #| label: fig-dumbbell
@@ -458,7 +458,7 @@ dumbbell_plot.draw()
 
 Gender inequality in education does not follow a single pattern. In some countries, **girls are more likely to attend preschool than boys**. In others, boys lead by a significant margin.
 
-In **Uzbekistan**, boys are nearly **10.5 percentage points** more likely to attend ECE than girls. This is not a minor gap — it represents a generation of girls whose education is considered less important than their brothers'.
+In **Uzbekistan**, boys are nearly **10.5 percentage points** more likely to attend ECE than girls. This is not a minor gap it represents a generation of girls whose education is considered less important than their brothers'.
 
 The time-series below tracks ECE attendance rates over time by sex, for the countries where the gender gap is most pronounced.
 
@@ -542,14 +542,14 @@ ts_plot.draw()
 
 > *Behind every data point in this report is a child. A child in Chad who will never attend preschool. A child in Ethiopia facing deprivation on four fronts simultaneously. A child in Uzbekistan whose sister is far less likely to be in school than her brother.*
 
-> *The numbers are stark — but they represent real lives, real futures, and a real choice about what kind of world we want to build.*
+> *The numbers are stark but they represent real lives, real futures, and a real choice about what kind of world we want to build.*
 
 The evidence from this data is clear and consistent:
 
 - Child deprivation is **geographically concentrated**, with Sub-Saharan Africa dominating the highest-risk countries  
 - The countries with the highest deprivation rates are often the same countries with the **lowest access to early childhood education**  
 - The **double penalty** is real: children facing poverty are also the least likely to receive the education that could help break that cycle  
-- Gender inequality in education exists, but it varies widely — in some countries girls are disadvantaged, while in others boys have lower participation rates 
+- Gender inequality in education exists, but it varies widely in some countries girls are disadvantaged, while in others boys have lower participation rates 
 
 Across all figures, one pattern stands out: inequality is not accidental. It is structured, persistent, and measurable.
 
